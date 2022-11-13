@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgb(145, 219, 176);
+}
+.navbar-brand {
+  margin: auto;
+}
+
+button {
+  color: black;
+  background-color: lightyellow;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-right: 10px;
+}

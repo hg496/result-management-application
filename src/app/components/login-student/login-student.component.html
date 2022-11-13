@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <span class="navbar-brand mb-0 h1">Result Management System</span>
+</nav>
+<div class="container">
+  <div class="card">
+    <h6 class="mb-3"> <strong>Find Result</strong></h6>
+    <div class="container">
+      <form [formGroup]="loginForm" (ngSubmit)="loginStudent()" ngNativeValidate>
+        <div class="form-group input-width d-flex mb-3">
+          <label class="mt-1">Roll No.</label>
+          <input type="number" class="form-control" formControlName="rollno" placeholder="Enter Roll No" required />
+        </div>
+        <div class="form-group input-width d-flex mb-3">
+          <label class="mt-1"> Name</label>
+          <input type="text" class="form-control" formControlName="name" placeholder="Enter Name" required />
+        </div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-light">Clear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

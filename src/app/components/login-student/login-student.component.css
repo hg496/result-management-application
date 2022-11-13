@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(145, 219, 176);
+}
+.navbar-brand {
+  margin: auto;
+}
+.card {
+  border: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-width {
+  width: 600px;
+}
+input {
+  width: 500px;
+}
+
+label {
+  width: 80px;
+}
+button {
+  border: 1px solid green;
+}
+button:first-of-type {
+  margin-right: 20px;
+  
+}

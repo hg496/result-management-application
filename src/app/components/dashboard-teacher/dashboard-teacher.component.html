@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div>
+  <button class="btn btn-primary" type="button" routerLink="/teacher-dashboard/add-student">Add Record</button>
+</div>
+<div class="container">
+  <p class="mb-3"> <strong>Total {{totalcount}} students</strong></p>
+  <table class="table table-boadered" datatable [dtOptions]="dtOptions" *ngIf="studentData?.length">
+    <thead>
+      <tr>
+        <th scope="col">Roll No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Date of Birth</th>
+        <th scope="col">Score</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of studentData">
+        <th scope="row">{{student.rollno}}</th>
+        <td scope="row">{{student.name}}</td>
+        <td scope="row">{{student.dob}}</td>
+        <td scope="row">{{student.score}}</td>
+        <td>
+          &nbsp;
+          <a routerLink="/teacher-dashboard/edit-result/{{ student.id }}"><i class="fa fa-edit"></i></a>
+          &nbsp;
+          <i class="fa fa-trash" (click)="deleteStudentData(student.id)"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

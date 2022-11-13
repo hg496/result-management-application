@@ -1,0 +1,19 @@
+input {
+  width: 500px;
+}
+
+label {
+  width: 100px;
+}
+
+.input-width {
+  width: 600px;
+}
+
+button {
+  border: 1px solid green;
+}
+
+button:first-of-type {
+  margin-right: 20px;
+}

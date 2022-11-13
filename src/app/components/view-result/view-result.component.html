@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <a routerLink="/student-login">Back</a>
+  <div class="align-div">
+    <h6 class="mb-3 text-center"><strong>Result</strong></h6>
+    <table class="table">
+      <tr>
+        <td><strong class="li-bc">Roll No. :</strong></td>
+        <td class="li-bc">{{studentRecord.rollno}}</td>
+      </tr>
+      <tr>
+        <td><strong class="li-bc">Name :</strong></td>
+        <td class="li-bc">{{studentRecord.name}}</td>
+      </tr>
+      <tr>
+        <td><strong class="li-bc">Date of Birth :</strong></td>
+        <td class="li-bc">{{studentRecord.dob}}</td>
+      </tr>
+      <tr>
+        <td><strong class="li-bc">Score :</strong></td>
+        <td class="li-bc">{{studentRecord.score}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

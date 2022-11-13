@@ -1,0 +1,102 @@
+{
+  "login": [
+    {
+      "name": "Shubham Vijay",
+      "email": "sv@nagarro.com",
+      "password": "s@123v"
+    }
+  ],
+  "students": [
+    {
+      "rollno": 1502,
+      "name": "Deepanshu",
+      "dob": "15-02-1990",
+      "score": 94,
+      "id": 1
+    },
+    {
+      "rollno": 1702,
+      "name": "Ajay",
+      "dob": "17-02-1990",
+      "score": 82,
+      "id": 2
+    },
+    {
+      "rollno": 1001,
+      "name": "Akshay",
+      "dob": "10-01-1991",
+      "score": 77,
+      "id": 3
+    },
+    {
+      "rollno": 1101,
+      "name": "Dev",
+      "dob": "11-01-1994",
+      "score": 91,
+      "id": 4
+    },
+    {
+      "rollno": 1209,
+      "name": "Udit",
+      "dob": "12-09-1992",
+      "score": 98,
+      "id": 5
+    },
+    {
+      "rollno": 1811,
+      "name": "Kumud",
+      "dob": "18-11-1991",
+      "score": 64,
+      "id": 6
+    },
+    {
+      "rollno": 1809,
+      "name": "Anish",
+      "dob": "18-09-1990",
+      "score": 91,
+      "id": 7
+    },
+    {
+      "rollno": 1502,
+      "name": "Akash",
+      "dob": "15-02-1990",
+      "score": 94,
+      "id": 8
+    },
+    {
+      "rollno": 2906,
+      "name": "Gautam",
+      "dob": "29-06-1990",
+      "score": 98,
+      "id": 9
+    },
+    {
+      "rollno": 1402,
+      "name": "Anant",
+      "dob": "24-02-1993",
+      "score": 89,
+      "id": 10
+    },
+    {
+      "rollno": 1708,
+      "name": "Prakash",
+      "dob": "17-08-1990",
+      "score": 84,
+      "id": 11
+    },
+    {
+      "rollno": 1403,
+      "name": "Abhishek",
+      "dob": "14-03-1990",
+      "score": 74,
+      "id": 12
+    },
+    {
+      "rollno": 1507,
+      "name": "Aman",
+      "dob": "15-07-1993",
+      "score": 68,
+      "id": 13
+    }
+  ]
+}

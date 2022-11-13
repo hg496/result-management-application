@@ -1,0 +1,14 @@
+.align-div {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.li-bc {
+  color: #2f4f4f;
+}
+
+td {
+    padding: 5px;
+}
